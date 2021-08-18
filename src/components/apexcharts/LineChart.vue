@@ -27,6 +27,10 @@ export default {
         },
       ],
       chartOptions: {
+        chart: {
+          height: 350,
+          type: 'line',
+        },
         dataLabels: {
           enabled: false,
         },
@@ -67,7 +71,7 @@ export default {
         tooltip: {
           y: {
             formatter: function(val) {
-              return '$ ' + val + ' thousands';
+              return `$ ${val} thousands`;
             },
           },
         },
