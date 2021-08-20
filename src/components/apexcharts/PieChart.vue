@@ -4,7 +4,7 @@
     height="350"
     :options="chartOptions"
     :series="series"
-  ></apex-chart>
+  />
 </template>
 
 <script>

@@ -4,7 +4,7 @@
     height="350"
     :options="chartOptions"
     :series="series"
-  ></apex-chart>
+  />
 </template>
 
 <script>
@@ -54,6 +54,7 @@ export default {
         },
         markers: {
           size: 3,
+          radius: 0,
           colors: ['#F4E04D', '#CEE397', '#E3BAC6'],
           strokeColors: ['#F4E04D', '#CEE397', '#E3BAC6'],
         },
