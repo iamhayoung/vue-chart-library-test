@@ -3,6 +3,7 @@
     <nav>
       <router-link to="/chartjs">Chart.js</router-link>
       <router-link to="/apexcharts">ApexCharts</router-link>
+      <router-link to="/googlecharts">Google Charts</router-link>
     </nav>
     <router-view id="app"></router-view>
   </div>
