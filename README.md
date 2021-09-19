@@ -1,24 +1,7 @@
 # vue-chart-library-test
 
-## Project setup
-```
-npm install
-```
+그리드 기반의 차트 대시보드를 개발하기 위한 Vue 차트 라이브러리를 테스트.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* Chart.js
+* ApexCharts.js
+* Google Charts
